@@ -1,2 +1,4 @@
 # COP3515-Advanced-Program-Design
-C Programming notes
+USF Fall Semester 2025
+COP 3515 Advanced Program Design Notes 
+C Programming basics and notes
