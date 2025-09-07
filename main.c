@@ -18,6 +18,12 @@ int main (){
     // variable - a reusable container for a value. 
     //            behaves as if it were the vale it contains.  
 
+    // int - whole numbers (4 bytes)
+    // float - single-precision decimal numbers (4 bytes)
+    // double - double-precision decimal numbers (8 bytes)
+    // char - single character (1 byte)
+    // char[] - array of characters (size varies)
+    // bool - true or false (1 byte and requires <stdbool.h>)
 
     int age = 25;
     // int are whole numbers
