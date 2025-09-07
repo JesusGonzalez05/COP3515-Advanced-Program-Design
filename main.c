@@ -3,6 +3,9 @@
 //this is a preprocessor directive. tells compilier to include the 
 //standard input and output library. neede to display dest on a screen.
 
+#include <stdbool.h>
+// this is a header file so that we can utilize boolean values 
+
 //main function needed in order for a program to be used or ran.
 int main (){
 
@@ -64,6 +67,16 @@ int main (){
     printf("Your email. is %s\n", email);
     // formatted using the %s (s for string)
 
+    bool isOnline = true;
+    // true = 1, false = 0
+    // boolean are good for if statements 
+    printf("%d\n", isOnline);
+
+    if(isOnline){
+        printf("You are online\n");
+    } else {
+        printf("You are offline\n");
+    };
 
 //////////////
 
