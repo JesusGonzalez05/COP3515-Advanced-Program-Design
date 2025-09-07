@@ -11,8 +11,10 @@ int main (){
     //^ this function allows you to print script to the screen.
     // \n adds a new line - placed inside of ""
 
+//////////////
     // variable - a reusable container for a value. 
     //            behaves as if it were the vale it contains.  
+
 
     int age = 25;
     // int are whole numbers
@@ -37,11 +39,38 @@ int main (){
 
     double pi = 3.14159265358979;
     // if you need more precision you can utilize a double 
-    printf("The value of pi is %.15lf", pi);
+    printf("The value of pi is %.15lf\n", pi);
     // %lf will be the formatter for doubles (lf - long float)
     // the default behavior of c will display this as only 6 characters after
     // the decimal you can use precision in order to calculate the rest of the
     // characters (%.15lf in this case)
+
+    char grade = 'A';
+    char symbol = '!';
+    // when using char you need to utlize sigle ''
+    printf("Your grade is %c\n", grade);
+    printf("Your favorite symbol is %c\n", symbol);
+    // formatting for character requires the %c (c for character)
+
+    char name[] = "Jesus Gonzalez";
+    char food[] = "Pizza";
+    char email[] = "jesusgonzalez0516@gmail.com";
+    // in C language in order to store a string you need to utilize an array
+    // for the characters as shown above. 
+    // you can store more than one char but they have to be in "" 
+
+    printf("Hello %s\n", name);
+    printf("My favorite food is %s\n", food);
+    printf("Your email. is %s\n", email);
+    // formatted using the %s (s for string)
+
+
+//////////////
+
+
+
+
+
     return 0;
     // ^ return 0; is used because the function is expected to return an integer 
     // to the OS. The number indicates a code. 0 means successfull. 
