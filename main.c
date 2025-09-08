@@ -90,9 +90,26 @@ int main (){
     // followed by a character that specifies the data and the optional 
     // modifiers (width, precision, flags). They control how data is 
     // displayed or interpreted.
+    
+    //"%+d" <-- this will show the integers being positive or negative. 
 
 /////////////
 
+    // arithmetic operators = + -  * / % ++ --
+    // % - modulus operator this will display the remaining.
+    //     this is a good way at testing to see if a number is even or odd.
+    // ++ - incriment 
+    // -- - decriment 
+
+    int x = 2;
+    int y = 3;
+    int z = 0;
+
+    z = x + y;
+
+    // x+=3 = x = x +3 
+
+    printf("%d", z);
 
 
 
