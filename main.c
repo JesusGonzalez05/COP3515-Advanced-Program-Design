@@ -86,6 +86,13 @@ int main (){
 
 //////////////
 
+    // Format specifiers = special tokens that begin with % symbol
+    // followed by a character that specifies the data and the optional 
+    // modifiers (width, precision, flags). They control how data is 
+    // displayed or interpreted.
+
+/////////////
+
 
 
 
